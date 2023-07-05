@@ -32,7 +32,7 @@ class Pong:
         writer.clear(); writer.write("playerL_down"+str(self.playerL.pos))
 
     def playerR_down(self):
-        self.playerR.pos[1] += 10
+        self.playerR.pos[1] -= 10
         writer.clear(); writer.write("playerR_down"+str(self.playerR.pos))
 
 
